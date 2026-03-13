@@ -1,29 +1,59 @@
 print("")
 print("")
 print("")
-name = input(-Please Identify yourself---\n")
+name = input("Please Identify yourself---")
 input()
-print(f"Hello {name}. I am Bob, a program interested in your likings.")
+print(f"Hello {name}. I am Rez, a program interested in your likings.")
 input()
-food = input("\n---What is your favorite food---\n")
+food = input("What is your favorite food---")
 input()
 print(f"Cool!!! I love to eat {food}")
 input()
-favorite_subject = input("\n---Well, what is your favorite subject?---\n")
-if favorite_subject == "Math" or "math" or "English" or "english" or "Science" or "science" or "History" or "history":
+favorite_subject = input("Well, what is your favorite subject?---")
+if favorite_subject == "Math" or favorite_subject == "math" or favorite_subject == "English" or favorite_subject == "english" or favorite_subject == "Science" or favorite_subject == "science":
     print("Ew those are bad subjects")
+elif favorite_subject == "P.E" or favorite_subject == "p.e":
+    print("Cool!!!")
     input()
-    feelings = input("\nHow are you feeling today?\n")
-    if feelings == "Good" or "good" or "Great" or "great":
-        print("That's good to hear.")
+    feelings = input("How are you feeling today?---")
+    if feelings == "Happy" or feelings == "happy" or feelings == "Excited" or feelings == "excited":
+        feelings_first = input(f"Cool! What are you {feelings} for?---")
+        input()
+        print("Ah. Got you")
+        input()
+        print(f"Well have a nice day {name}")
+    elif feelings == "Nervous" or feelings == "nervous" or feelings == "Angry" or feelings == "angry" or feelings == "Sad" or feelings == "sad":
+        feelings_sec = input(f"Wow. Why do you feel {feelings}?---")
+        input()
+        print(f"Ah. Well I'm sorry you feel that way {name}. I'm also feeling {feelings} too.")
+        input()
+        print("Anyways, have a nice day!!!")
     else:
-        print("Ok, well I don't care")
+        feelings_third = input(f"Oh ok. Why do you feel this way?---")
+        input()
+        print("Ah. Got you")
+        input()
+        print(f"Well have a nice day {name}")
+        input()
 else:
     print(f"Oh cool! I like {favorite_subject}")
     input()
-    feelings = input("\nHow are you feeling today?\n")
-    if feelings == "Good" or "good" or "Great" or "great":
-        print("That's good to hear.")
+    feelings = input("How are you feeling today?---")
+    if feelings == "Happy" or feelings == "happy" or feelings == "Excited" or feelings == "excited":
+        feelings_first = input(f"Cool! What are you {feelings} for?---")
+        input()
+        print("Ah. Got you")
+        input(f"Well have a nice day {name}")
+    elif feelings == "Nervous" or feelings == "nervous" or feelings == "Angry" or feelings == "angry" or feelings == "Sad" or feelings == "sad":
+        feelings_sec = input(f"Wow. Why do you feel {feelings}?---")
+        input()
+        print(f"Ah. Well I'm sorry you feel that way {name}. I'm actually feeling {feelings} too.")
+        input()
+        print("Anyways, have a nice day!!!")
     else:
-        print("Ok, well I don't care")
-
+        feelings_third = input(f"Oh ok. Why do you feel this way?---")
+        input()
+        print("Ah. Got you")
+        input()
+        print(f"Well have a nice day {name}")
+        input()
