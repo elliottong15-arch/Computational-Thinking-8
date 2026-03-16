@@ -49,6 +49,10 @@ else:
         input()
         print(f"Ah. Well I'm sorry you feel that way {name}. I'm actually feeling {feelings} too.")
         input()
+        hobbies_first = input("What are some of your hobbies?")
+        input()
+        print("Well try doing that. Maybe that will cheer you up.")
+        input()
         print("Anyways, have a nice day!!!")
     else:
         feelings_third = input(f"Oh ok. Why do you feel this way?---")
